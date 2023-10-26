@@ -47,7 +47,7 @@
   text-transform: uppercase;
 }
 .italic {
-  font-family: Petit Formal Script;
+  font-family: Playfair Display;
   font-style: italic;
   font-weight: 50 !important;
   text-align: center;
@@ -80,15 +80,78 @@
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 76px; 
+  line-height: 76px;
 }
 
-.about-author-item-text{
-    text-align: right;
-font-family: SF Pro Display;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 45px;
+.about-author-item-text {
+  text-align: right;
+  font-family: SF Pro Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
 }
 /* About author section end */
+
+/* Creature section start */
+.creatures-inner {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.creature-left {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: end;
+  gap: 30px;
+}
+
+.creature-right {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* creature section end */
+
+/* detail start */
+.detail {
+  position: relative;
+}
+
+.detail-btn{
+  position: absolute;
+  bottom: 200px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #d0af82;
+  border: black;
+}
+.detail-btn:active{
+  background-color: rgb(62, 62, 64);
+}
+.detail-text {
+  position: absolute;
+  bottom: 80px;
+  left: calc(50% - 450px);
+  width: 1000px;
+text-align: center;
+  font-family: SF Pro Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/*  */
