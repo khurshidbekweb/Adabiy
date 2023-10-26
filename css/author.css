@@ -124,9 +124,9 @@
   position: relative;
 }
 
-.detail-btn{
+.detail-btn {
   position: absolute;
-  bottom: 200px;
+  bottom: 350px;
   z-index: 10;
   display: flex;
   align-items: center;
@@ -137,7 +137,7 @@
   background-color: #d0af82;
   border: black;
 }
-.detail-btn:active{
+.detail-btn:active {
   background-color: rgb(62, 62, 64);
 }
 .detail-text {
@@ -145,7 +145,7 @@
   bottom: 80px;
   left: calc(50% - 450px);
   width: 1000px;
-text-align: center;
+  text-align: center;
   font-family: SF Pro Display;
   font-size: 32px;
   font-style: normal;
@@ -154,4 +154,33 @@ text-align: center;
   text-transform: uppercase;
 }
 
-/*  */
+/*  detail end  */
+
+/* writers section start */
+.writers-inner{
+  position: relative;
+  margin-top: 90px;
+}
+
+.writers-title {
+  width: 900px;
+  font-family: SF Pro Display;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.writers-text {
+  width: 600px;
+  position: absolute;
+  top: 85px;
+  right: 200px;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* writers section end */
