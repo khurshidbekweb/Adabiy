@@ -45,34 +45,37 @@
 }
 .heroTitle{
     text-align: center;
-    font-size: 200px;
+    font-size: 210px;
     font-family: 'Playfair Display';
 }
 .heroImages{
     position: relative;
 }
 .imgLeft{
+    width: 320px;
     position: absolute;
-    top: 50px;
-    left: -10px;
+    top: 60px;
+    left: 140px;
     z-index: 9999;
 }
 .mainImg{
+    width: 520px;
     position: absolute;
-    top: -70px;
-    left: 350px;
+    top: -80px;
+    left: 370px;
     z-index: 999;
 }
 .imgRight{
+    width: 290px;
     position: absolute;
-    top: -40px;
-    right: 0;
+    top: -50px;
+    right: 210px;
 }
 .heroText{
     position: absolute;
     width: 312px;
-    right: 70px;
-    top: 730px;
+    right: 110px;
+    top: 590px;
     font-size: 16px;
 }
 .heroLink{
@@ -80,7 +83,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 500px;
+    margin-top: 350px;
 }
 .linkInfo{
     padding: 15px;
@@ -195,5 +198,12 @@
 
 /* footer css */
 .footer{
+    margin-top: 50px;
     background-color: #D0AF82;
+    padding: 15px;
+}
+.imgFooterIcon{
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 50%;
 }
