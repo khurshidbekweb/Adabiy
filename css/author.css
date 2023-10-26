@@ -1,0 +1,94 @@
+/* Hero section start */
+.hero {
+  margin-top: 90px;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 128px;
+  font-family: "Playfair Display";
+}
+.hero-text {
+  width: 750px;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.play-icon {
+  position: absolute;
+  bottom: 200px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #d0af82;
+  border: black;
+}
+.play-icon:active {
+  background-color: rgb(62, 62, 64);
+}
+/* Hero section end */
+
+/* About author section start */
+.about-author-texts {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.about-author-texts-title {
+  width: 600px;
+  font-size: 70px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.italic {
+  font-family: Petit Formal Script;
+  font-style: italic;
+  font-weight: 50 !important;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 300;
+}
+.about-author-texts-text {
+  width: 600px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+}
+.about-author-items {
+  margin-top: 90px;
+  display: flex;
+  gap: 20px;
+  align-items: start;
+  justify-content: space-around;
+}
+
+.about-author-item {
+  width: 700px;
+}
+
+.about-author-item-title {
+  margin-bottom: 15px;
+  text-align: right;
+  font-family: Petit Formal Script;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 76px; 
+}
+
+.about-author-item-text{
+    text-align: right;
+font-family: SF Pro Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 45px;
+}
+/* About author section end */
