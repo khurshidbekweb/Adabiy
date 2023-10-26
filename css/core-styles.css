@@ -1,0 +1,47 @@
+/* Header css */
+.wrapperHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', 'Playfair Display';
+    font-style: normal;
+}
+.bugerBtn{
+    padding: 5px;
+    border: none;
+    background-color: inherit;
+}
+.buger{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #000;
+    margin-top: 5px;
+}
+
+/* header css end */
+
+
+
+/* footer css */
+.footer{
+    background-color: #D0AF82;
+}
+/* footer css end */
