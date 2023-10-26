@@ -1,0 +1,199 @@
+
+/* Header css */
+.wrapperHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', 'Playfair Display';
+    font-style: normal;
+}
+.bugerBtn{
+    padding: 5px;
+    border: none;
+    background-color: inherit;
+}
+.buger{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #000;
+    margin-top: 5px;
+}
+
+/* Hero section start */
+.hero{
+    margin-top: 90px;
+}
+.hero_Inner{position: relative;
+}
+.heroTitle{
+    text-align: center;
+    font-size: 200px;
+    font-family: 'Playfair Display';
+}
+.heroImages{
+    position: relative;
+}
+.imgLeft{
+    position: absolute;
+    top: 50px;
+    left: -10px;
+    z-index: 9999;
+}
+.mainImg{
+    position: absolute;
+    top: -70px;
+    left: 350px;
+    z-index: 999;
+}
+.imgRight{
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+.heroText{
+    position: absolute;
+    width: 312px;
+    right: 70px;
+    top: 730px;
+    font-size: 16px;
+}
+.heroLink{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 500px;
+}
+.linkInfo{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.organization{
+    margin-top: 150px;
+}
+.organizationTitle{
+    width: 1077px;
+    font-size: 100px;
+    font-weight: 400; 
+}
+.malumot{
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 50 !important;
+    text-align: center;
+}
+.organizationsText{
+    text-align: start;
+    width: 1200px;
+    font-size: 24px;
+}
+.organizationInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 50px;
+}
+.orgText{
+    width: 599px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.arrowBtn{
+    margin-top: 50px;
+    padding: 15px;
+    border: 1px solid silver;
+    border-radius: 50%;
+    background: #D0AF82;
+}
+
+/* Deting section star */
+
+.deting_inner{
+    margin-top: 50px;
+}
+.detingTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.detingTitle .title{
+    font-size: 90px;
+}
+.detingTitle .text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.detingINfoIMg{
+    width: 580px;
+}
+.detingIndo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.detingInfo{
+    width: 610px;    
+    margin-top: 30px;
+}
+.authorTitle{
+    position: absolute;
+    font-size: 100px;
+    font-family: 'Playfair Display';
+    right: 150px;
+    top: 0;
+}
+.authorDiskrp{
+    font-size: 20px;
+    font-weight: 400    ;
+}
+.detingLink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* News Sections start */
+.news{
+    margin-top: 50px;
+}
+.NewsList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 20px;
+    row-gap: 20px;
+}
+.NewsList .item{
+    width: 300px;
+}
+.imgNEws{
+    width: 290px;
+    border-radius: 5px;
+}
+
+/* footer css */
+.footer{
+    background-color: #D0AF82;
+}
