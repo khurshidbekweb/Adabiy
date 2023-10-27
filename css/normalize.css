@@ -10,52 +10,51 @@
   padding: 0 20px;
   margin: 0 auto;
 }
+
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Regular.woff2') format('woff2'),
-      url('../fonts/Inter-Regular.woff') format('woff');
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../fonts/Inter-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
-      url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
-      url('../fonts/PlayfairDisplay-Italic.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Sans Display';
-  src: url('../fonts/NotoSansDisplay-Regular.woff2') format('woff2'),
-      url('../fonts/NotoSansDisplay-Regular.woff') format('woff');
+  font-family: "Noto Sans Display";
+  src: url("../fonts/NotoSansDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/NotoSansDisplay-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Noto Sans Display';
-  src: url('../fonts/NotoSansDisplay-Italic.woff2') format('woff2'),
-      url('../fonts/NotoSansDisplay-Italic.woff') format('woff');
+  font-family: "Noto Sans Display";
+  src: url("../fonts/NotoSansDisplay-Italic.woff2") format("woff2"),
+    url("../fonts/NotoSansDisplay-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
-
-
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
