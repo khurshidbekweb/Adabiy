@@ -1,7 +1,7 @@
 
 /* Hero section start */
 .hero{
-    margin-top: 90px;
+    margin-top: 0px;
 }
 .hero_Inner{position: relative;
 }
@@ -52,7 +52,6 @@
     border: 1px solid black;
     border-radius: 50px;
 }
-
 .organization{
     margin-top: 150px;
 }
