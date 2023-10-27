@@ -1,0 +1,140 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 1240px !important;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.couruselWrapper{    
+    margin: 0 20px;
+    width: 1240px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.mainImgs{    
+    width: 1300px;
+    text-align: center;
+    display: flex;    
+    margin: 25px auto;    
+    transition: 500ms ease-in-out;    
+}
+.img{
+    min-width: 1300px;
+    height: 600px;
+}
+.btn{
+    position: absolute;
+    top: 0;
+    background-color: red;
+    padding: 25px;
+    margin: 0 auto;
+}
+.left{
+    position: absolute;
+    z-index: 999;
+    border: none;
+    font-size:72px;
+    font-weight: 900;
+    padding: 5px 13px;
+    border-radius: 5px;
+    top: 16rem;
+    left:11rem;   
+    background: none;
+    color: white;
+}
+.right{
+    position: absolute;
+    border: none;
+    font-size:72px;
+    font-weight: 900;
+    padding: 5px 13px;
+    border-radius: 5px;
+    top: 16rem;
+    right: 8rem;   
+    background: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .hero-slider .swiper-button-prev:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f060";
+    font-size: 15px;
+    color: #d4d3d3;
+    font-style: normal;
+    position: relative;
+    right: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.hero-slider .swiper-button-next {
+    right: 25px;
+    transform: translateX(-50px);
+}
+
+.hero-slider .swiper-button-next:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f061";
+    font-size: 15px;
+    color: #d4d3d3;
+    position: relative;
+    left: 0px;
+    font-style: normal;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.hero-slider .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    text-align: left;
+    line-height: 12px;
+    font-size: 12px;
+    color: #000;
+    opacity: 0.3;
+    background: #fff;
+    transition: all .2s ease;
+}
+
+.hero-slider .swiper-pagination-bullet-active {
+    opacity: 1;
+} */
