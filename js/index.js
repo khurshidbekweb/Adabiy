@@ -1,17 +1,16 @@
-import Swiper  from './node_modules/swiper/swiper.mjs'
-import Navigation from './node_modules/swiper/modules/navigation.min.mjs'
-import Autoplay from './node_modules/swiper/modules/autoplay.mjs';
-import Pagination from './node_modules/swiper/modules/pagination.mjs'
-import Parallax from './node_modules/swiper/modules/parallax.mjs'
-
+import Swiper from "./node_modules/swiper/swiper.mjs";
+import Navigation from "./node_modules/swiper/modules/navigation.min.mjs";
+import Autoplay from "./node_modules/swiper/modules/autoplay.mjs";
+import Pagination from "./node_modules/swiper/modules/pagination.mjs";
+import Parallax from "./node_modules/swiper/modules/parallax.mjs";
 
 // HERO SLIDER
-$(document).ready(function(){
+$(document).ready(function () {
   var menu = [];
   jQuery(".swiper-slide").each(function (index) {
     menu.push(jQuery(this).find(".slide-inner").attr("data-text"));
   });
-  
+
   var interleaveOffset = 0.5;
   var swiperOptions = {
     modules: [Navigation, Pagination, Autoplay, Parallax],
@@ -31,7 +30,7 @@ $(document).ready(function(){
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
-      disabledClass: 'disabled_swiper_button',
+      disabledClass: "disabled_swiper_button",
     },
 
     on: {
@@ -67,14 +66,13 @@ $(document).ready(function(){
   var swiper = new Swiper(".swiper-container", swiperOptions);
 
   // DATA BACKGROUND IMAGE
-var sliderBgSetting = $(".slide-bg-image");
-sliderBgSetting.each(function (indx) {
+  var sliderBgSetting = $(".slide-bg-image");
+  sliderBgSetting.each(function (indx) {
     if ($(this).attr("data-background")) {
-    $(this).css(
+      $(this).css(
         "background-image",
         "url(" + $(this).data("background") + ")"
-    );
+      );
     }
+  });
 });
-
-})
