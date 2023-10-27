@@ -14,6 +14,9 @@
   line-height: 36px;
 }
 
+.play-video-img{
+  height: 800px;
+}
 .play-icon {
   position: absolute;
   bottom: 200px;
@@ -184,3 +187,4 @@
 }
 
 /* writers section end */
+
