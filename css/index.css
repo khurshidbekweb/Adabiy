@@ -1,6 +1,6 @@
 /* Hero section start */
-.hero{
-    margin-top: 90px;
+.hero {
+  margin-top: 10px;
 }
 .hero_Inner {
   position: relative;
@@ -41,20 +41,19 @@
   font-size: 16px;
 }
 .heroLink {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 350px;
 }
 .linkInfo {
   padding: 15px;
-  border: 1px solid black;
+  border: 1px solid rgb(177, 192, 37);
   border-radius: 50px;
 }
 
-.organization{
-    margin-top: 150px;
+.organization {
+  margin-top: 0px;
 }
 .organizationTitle {
   width: 1077px;
@@ -68,9 +67,11 @@
   text-align: center;
 }
 .organizationsText {
+  font-family: "Inter";
   text-align: start;
   width: 1200px;
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: 400;
 }
 .organizationInfo {
   display: flex;
@@ -82,6 +83,9 @@
   width: 599px;
   font-size: 24px;
   font-weight: 400;
+}
+.orgImg{
+  width: 550px;
 }
 .arrowBtn {
   margin-top: 50px;
@@ -119,7 +123,7 @@
   position: relative;
 }
 .detingInfo {
-  width: 610px;
+  width: 590px;
   margin-top: 30px;
 }
 .authorTitle {
@@ -128,6 +132,10 @@
   font-family: "Playfair Display";
   right: 150px;
   top: 0;
+  font-weight: 500;
+}
+.auhtor{
+  width: 550px;
 }
 .authorDiskrp {
   font-size: 20px;
@@ -143,17 +151,30 @@
   margin-top: 50px;
 }
 .NewsList {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   flex-wrap: wrap;
   justify-content: space-between;
   list-style-type: none;
   margin-top: 20px;
-  row-gap: 20px;
+  /* row-gap: 20px; */
 }
 .NewsList .item {
   width: 300px;
+  display: inline-block;
 }
 .imgNEws {
   width: 290px;
   border-radius: 5px;
+}
+.titleNews{
+  font-family: "Inter";
+  font-size: 17px;
+  padding: 5px 0;
+}
+.textNews{
+  width: 100%;
+  font-family: "Inter";
+  font-size: 15px;
+  padding: 5px 0;
 }

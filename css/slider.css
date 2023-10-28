@@ -12,12 +12,44 @@
 }
 
 .couruselWrapper{    
+    position: relative;
     margin: 0 20px;
     width: 1240px;
     overflow: hidden;
     z-index: -1;
 }
-
+.hero_Inner1{
+    background: url('../images/img/adabiy.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% 500px;
+}
+.hero_Inner2{
+    margin-top: 20px;
+    background: url('../images/img/beutfil.png');
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+}
+.heroTitle2{
+    color: black;
+    font-size: 140px;
+    margin-top: 420px;
+}
+.hero_Inner3{
+    background: url('../images/img/samarkans.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 500px;
+}
+.heroTitle3{
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 150px;
+}
+.heroLink{
+    width: 1000px;
+}
 .mainImgs{    
     width: 1300px;
     text-align: center;
@@ -27,7 +59,7 @@
 }
 .img{
     min-width: 1300px;
-    height: 600px;
+    height: 550px;
 }
 .btn{
     position: absolute;
@@ -45,10 +77,11 @@
     padding: 5px 13px;
     border-radius: 5px;
     top: 16rem;
-    left:11rem;   
+    left:1rem;   
     background: none;
     color: white;
 }
+
 .right{
     position: absolute;
     border: none;
@@ -57,11 +90,22 @@
     padding: 5px 13px;
     border-radius: 5px;
     top: 16rem;
-    right: 8rem;   
+    right: 1rem;   
     background: none;
     color: white;
 }
-
+.infoMOre{
+    position: absolute;
+    z-index: 9999;
+    top: 480px;
+    left: 30px;
+}
+.google{
+    position: absolute;
+    z-index: 9999;
+    top: 480px;
+    right: 30px;
+}
 
 
 
