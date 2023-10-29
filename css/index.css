@@ -59,10 +59,11 @@
 }
 .heroLink {
   width: 90%;
+  /* position: absolute; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 250px  auto 0;
+  margin :550px  auto 0;
 }
 .linkInfo {
   padding: 15px;
