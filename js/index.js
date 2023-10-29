@@ -1,10 +1,17 @@
-import Swiper from "../node_modules/swiper/swiper.mjs";
-import Navigation from '../node_modules/swiper/modules/navigation.mjs'
-import Pagination from '../node_modules/swiper/modules/pagination.mjs'
-import Scrollbar from '../node_modules/swiper/modules/scrollbar.mjs'
-import AutoPlay from '../node_modules/swiper/modules/autoplay.mjs'
+
+
+let Header = document.querySelector('.header')
+console.log(Header);
+function scrollHead(){
+    if(window.scrollY > 70){
+      Header.classList.add("bg-white")
+    }else{
+      Header.classList.remove("bg-white");
+    }
+}
+window.addEventListener("scroll", scrollHead);
+
 const swiper = new Swiper(".swiper", {
-  modules: [Navigation, Pagination, Scrollbar, AutoPlay],
   loop: true,
   speed: 400,
   scrollbar: {

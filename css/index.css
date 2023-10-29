@@ -20,9 +20,12 @@
   text-align: center;
 }
 .heroTitle2{
+  position: absolute;
+  top: 220px;
   text-align: center;
   font-size: 150px;
   color: white;
+  left: 350px;
 }
 .heroImages {
   position: relative;

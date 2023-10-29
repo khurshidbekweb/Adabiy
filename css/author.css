@@ -188,3 +188,43 @@
 
 /* writers section end */
 
+/* authors section start */
+
+.authors{
+  margin-top: 100px !important;
+}
+.swiper-author__next::after{
+    content: "";
+    position: absolute;
+    top: -200px;
+    background-color: #d0af82;
+    padding: 50px;
+    border-radius: 50%;
+    background: url('../images/icons/arrowRight.svg');
+    background-position: center;
+}
+.swiper-author__prev::after{
+  content: "";
+  position: absolute;
+  top: -200px;
+  background-color: #d0af82;
+  padding: 50px;
+  border-radius: 50%;
+  background: url('../images/icons/arrowLeft.svg');
+  background-position: center;
+}
+.footer-title{
+  font-family: 'Sans Display';
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: -50px;
+}
+.footer-slide{
+  transform: rotate(-10deg);
+}
+
+/* authors section end */
+
+
