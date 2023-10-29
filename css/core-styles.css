@@ -1,153 +1,66 @@
-/* Header css */
 
-.wrapperHeader {
-    height: 40px;
-    width: 1300px;
-    padding: 5px 20px;
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    background-color: inherit;
-    z-index: 9999;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-
-.navbar {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* padding-bottom: ; */
-}
-
-.nav {
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container {
+    width: 1240px;
     padding: 0 20px;
+    margin: 0 auto;
+}
+body{
+    background: #F2EFE8;
+}
+.header{
+    /* background-color: inherit; */
+    z-index: 99999999;
+}
+.footer{
+    background: #D0AF82;
+}
+@font-face {
+font-family: "Inter";
+src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../fonts/Inter-Regular.woff") format("woff");
+font-weight: normal;
+font-style: normal;
+font-display: swap;
 }
 
-.link {
-    text-decoration: none;
-    color: black;
-    font-family: 'Inter', 'Playfair Display';
-    font-style: normal;
+@font-face {
+font-family: "Playfair Display";
+src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+font-weight: normal;
+font-style: normal;
+font-display: swap;
 }
 
-.bugerBtn {
-    padding: 5px;
-    border: none;
-    background-color: inherit;
+@font-face {
+font-family: "Playfair Display";
+src: url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Italic.woff") format("woff");
+font-weight: normal;
+font-style: italic;
+font-display: swap;
 }
 
-.buger {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background: #000;
-    margin-top: 5px;
+@font-face {
+font-family: "Noto Sans Display";
+src: url("../fonts/NotoSansDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/NotoSansDisplay-Regular.woff") format("woff");
+font-weight: normal;
+font-style: normal;
+font-display: swap;
 }
 
-/* header css end */
-
-
-
-/* footer css */
-.footer {
-    margin-top: 50px;
-    background-color: #D0AF82;
-    padding: 15px;
+@font-face {
+font-family: "Noto Sans Display";
+src: url("../fonts/NotoSansDisplay-Italic.woff2") format("woff2"),
+    url("../fonts/NotoSansDisplay-Italic.woff") format("woff");
+font-weight: normal;
+font-style: italic;
+font-display: swap;
 }
-.footer_inner{
-    width: 1000px;
-
-}
-.logo{
-    display: block;
-    padding: 25px 0;
-}
-.footerList{
-    width: 75%;
-    list-style-type: none;
-    margin: 40px auto 0;
-    padding: 30px 0;
-}
-.item-top{
-    display: flex;
-    align-items: start;
-    justify-content: center;
-}
-.item-middle{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 35px;
-}
-.item{
-    display: flex;
-    justify-content: space-between;
-    width: 600px;
-    align-items: end;
-    margin-top: 10px;
-} 
-.textNews{
-    display: flex;
-    width: 500px;
-    justify-content: space-between;
-}
-.link{
-    margin-bottom: 20px;
-}
-.link-news{
-    margin-top: 30px;
-}
-.numbers{
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 30px;
-}
-.titleNEws{
-    font-family: SF Pro Display;
-    font-size: 60px;
-    font-weight: normal;
-}
-.item-bottom{
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.icons{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-.textAre{
-    width: 250px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.itemfooterLInk{
-    margin-top: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.imgFooterIcon {
-    border: 1px solid black;
-    padding: 12px;
-    border-radius: 50%;
-}
-
-.imgFooterIcon:hover {
-    background-color: rgb(90, 90, 227);
-
-}
-
-/* footer css end */

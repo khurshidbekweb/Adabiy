@@ -1,5 +1,5 @@
 /**
- * Swiper 11.0.2
+ * Swiper 11.0.3
  * Most modern mobile touch slider and framework with hardware accelerated transitions
  * https://swiperjs.com
  *
@@ -7,7 +7,7 @@
  *
  * Released under the MIT License
  *
- * Released on: October 25, 2023
+ * Released on: October 26, 2023
  */
 
 var Swiper = (function () {
@@ -2394,6 +2394,10 @@ var Swiper = (function () {
         }
       }
     }
+    swiper.__preventObserver__ = true;
+    requestAnimationFrame(() => {
+      swiper.__preventObserver__ = false;
+    });
     if (isPrev) {
       prependSlidesIndexes.forEach(index => {
         slides[index].swiperLoopMoveDOM = true;
@@ -2791,7 +2795,7 @@ var Swiper = (function () {
         data.startMoving = true;
       }
     }
-    if (data.isScrolling || swiper.zoom && swiper.params.zoom && swiper.params.zoom.enabled) {
+    if (data.isScrolling) {
       data.isTouched = false;
       return;
     }
@@ -9488,7 +9492,7 @@ var Swiper = (function () {
   }
 
   /**
-   * Swiper 11.0.2
+   * Swiper 11.0.3
    * Most modern mobile touch slider and framework with hardware accelerated transitions
    * https://swiperjs.com
    *
@@ -9496,7 +9500,7 @@ var Swiper = (function () {
    *
    * Released under the MIT License
    *
-   * Released on: October 25, 2023
+   * Released on: October 26, 2023
    */
 
 
